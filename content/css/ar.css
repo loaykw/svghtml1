@@ -1,0 +1,9 @@
+.page-wrapper.toggled .sidebar-wrapper {right: 0px; left: auto;}
+#show-sidebar, #close-sidebar { right:0; left: auto;}
+.page-wrapper.toggled #show-sidebar { left:auto; right: -40px; } 
+.sidebar-wrapper {right:-300px; left:auto;}
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown > a:after {content: "\f104"; left:15px; right:auto;}
+
+@media screen and (min-width: 815px) {
+	.page-wrapper.toggled .page-content {margin-right: 285px; margin-left:auto;border-radius: 0 3em 0 0;}
+}
